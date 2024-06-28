@@ -4,29 +4,35 @@ body{
       }
 
  main {
-    width: 250px;
-    background-color: white;
-    padding: 20px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: 10em;
-    border-radius: 20px;
+    height: 100vh;
     }
 
 img {
-    width: 250px;
+    width: 100%;
+    height: 65%;
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 h1 {
     font-size: 20px;
     font-weight: bold;
-    width: 220px;
  }
 p  {
-    width: 220px;
     font-size: 15px;
     margin: 0;
     }
+
+.container {
+    height: 450px;
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 20px;
+           }
+    
